@@ -1,0 +1,3 @@
+[submodule "launchpad.py"]
+	path = launchpad.py
+	url = https://github.com/FMMT666/launchpad.py.git
