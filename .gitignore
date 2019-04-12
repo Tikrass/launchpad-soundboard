@@ -45,3 +45,11 @@ Thumbs.db
 .pydevproject
 .settings/
 
+
+# IDEA Project Data #
+#####################
+/target/
+.idea/
+*.iml
+
+
