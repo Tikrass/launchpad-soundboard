@@ -8,17 +8,17 @@ import rtmidi
 #from rtmidi._rtmidi import MidiOut
 #import zmq
 #from threading import Thread
-import lm_soundboard.constants as constants
-from lm_soundboard.constants import numbers as led_numbers
-from lm_soundboard.constants import GREEN, AMBER, RED, OFF
+import lm_soundboard_old.constants as constants
+from lm_soundboard_old.constants import numbers as led_numbers
+from lm_soundboard_old.constants import GREEN, AMBER, RED, OFF
 
 import random
 import json
-from lm_soundboard.constants import GREEN_FLASHING, RED_FLASHING, AMBER_FLASHING, FLASH_MODE_ON, FLASH_MODE_OFF, RESET_LEDS 
+from lm_soundboard_old.constants import GREEN_FLASHING, RED_FLASHING, AMBER_FLASHING, FLASH_MODE_ON, FLASH_MODE_OFF, RESET_LEDS
 from time import sleep
-from lm_soundboard.soundboard_mode import Soundboardmode
-from lm_soundboard.config_mode import Configmode
-from lm_soundboard.delete_mode import Deletemode
+from lm_soundboard_old.soundboard_mode import Soundboardmode
+from lm_soundboard_old.config_mode import Configmode
+from lm_soundboard_old.delete_mode import Deletemode
 #from tkinter import filedialog
 from tkFileDialog import asksaveasfile, askopenfile
 from os.path import split, abspath

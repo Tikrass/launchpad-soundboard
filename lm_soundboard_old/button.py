@@ -4,11 +4,11 @@ Created on Jan 18, 2017
 @author: joel
 '''
 import swmixer
-from lm_soundboard.constants import *
+from lm_soundboard_old.constants import *
 import threading
 #from gnomevfs._gnomevfs import Volume
 from time import sleep
-from lm_soundboard.pausable_timer import PausableTimer
+from lm_soundboard_old.pausable_timer import PausableTimer
 
 class Gridbutton(object):
     '''

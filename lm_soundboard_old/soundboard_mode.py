@@ -3,12 +3,12 @@ Created on Jun 14, 2016
 
 @author: joel
 '''
-from lm_soundboard.launchpad_mode import mode
+from lm_soundboard_old.launchpad_mode import mode
 # import zmq
-from lm_soundboard.constants import OFF, AMBER, GREEN_FLASHING, GREEN, RED
+from lm_soundboard_old.constants import OFF, AMBER, GREEN_FLASHING, GREEN, RED
 from threading import Thread
 import swmixer
-from lm_soundboard.button import Gridbutton      
+from lm_soundboard_old.button import Gridbutton
 #import wav_thread
 
 class Soundboardmode(mode):
@@ -132,5 +132,4 @@ class Soundboardmode(mode):
 #                 grid[ID]['state'] = 'STOPPED'
 #                 #set LED back to Amber
 #                 self.controller.change_grid_color(ID,AMBER)
-                
                 

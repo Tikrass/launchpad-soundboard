@@ -3,9 +3,9 @@ Created on Jun 16, 2016
 
 @author: joel
 '''
-from lm_soundboard.launchpad_mode import mode
+from lm_soundboard_old.launchpad_mode import mode
 
-from lm_soundboard.constants import *
+from lm_soundboard_old.constants import *
 
 
 class Deletemode(mode):
