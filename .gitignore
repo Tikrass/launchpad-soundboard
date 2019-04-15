@@ -67,9 +67,14 @@ gradle-app.setting
 .gradletasknamecache
 
 
-# Java #
-########
+# Java & Kotlin #
+#################
 # Compiled class file
 *.class
+
+# Project Config #
+##################
+config/*
+
 
 
